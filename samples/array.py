@@ -1,0 +1,11 @@
+import numpy
+mylist = ([1,2,3],[3,4,5])
+myarray=numpy.array(mylist)
+print("array: ")
+print(myarray)
+print("shape: ")
+print(myarray.shape)
+print("First row: %s" %myarray[0])
+print("Last row: %s" %myarray[-1])
+print("Specific row and col: %s" %myarray[1,1])
+print("Whole col: %s" %myarray[:,0])
