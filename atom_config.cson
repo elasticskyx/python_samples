@@ -1,0 +1,31 @@
+"*":
+  'runner':
+    'scopes':
+        'python': '/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python'
+  autosave:
+    enabled: true
+  core:
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  editor:
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "fd6dcb98-3b99-4787-a6fa-fda82b179fe0"
+  "git-plus":
+    commits:
+      verboseCommits: true
+    general:
+      showFormat: "short"
+  "terminal-plus":
+    core:
+      autoRunCommand: "/bin/bash"
+      mapTerminalsTo: "Folder"
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
